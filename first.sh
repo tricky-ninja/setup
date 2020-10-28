@@ -1,5 +1,7 @@
 echo Welcome to first made by Sreyas. This is a script that automates the process of setting up termux. Stay back and enjoy. 
 sleep 5
+clear
+cat banner.txt
 pkg update && pkg upgrade -y 
 pkg install git 
 pkg install python 
