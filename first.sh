@@ -2,7 +2,7 @@
 
 
 
-echo Welcome to first made by Sreyas. This is a script that automates the process of setting up termux. Stay back and enjoy. 
+echo Welcome to first made by Sreyas. This is a script that automates the process of setting up linux terminals. Stay back and enjoy. 
 sleep 5		# wait for 5 seconds
 clear	
 cat banner.txt		# read banner.txt
