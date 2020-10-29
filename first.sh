@@ -12,15 +12,15 @@ cat banner.txt		# read banner.txt
 # installs some packages
 
 
-pkg update && pkg upgrade -y 
-pkg install git 
-pkg install python 
-pkg install  python2 
-pkg install  php 
-pkg install figlet 
-pkg install ruby
-pkg install wget 
-echo Basic installation donee. Starting to customize termux 
+apt-get update && apt-get upgrade -y 
+apt-get install git 
+apt-get install python 
+apt-get install  python2 
+apt-get install  php 
+apt-get install figlet 
+apt-get install ruby
+apt-get install wget 
+echo Basic installation finished. Starting to customize termux 
 sleep 8
 git clone https://github.com/Bhai4You/Termux-Banner	# clones into the given link
 cd Termux-Banner 
